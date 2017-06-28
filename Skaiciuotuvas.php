@@ -37,14 +37,14 @@
 </head>
 <body>
 	<form action=>
-		<input type="text" name="arg1">
+		<input type="text" name="arg1" placeholder="argument1" value="5">
 		<select name="operation">
 		 	<option value="add">Add</option>
 		 	<option value="sub">Subract</option>
 		 	<option value="mul">Multiply</option>
 		 	<option value="div">Divide</option>
 		</select>
-		<input type="text" name="arg2">
+		<input type="text" name="arg2" placeholder="argument2" value="5">
 		<input type="submit" value="Calculate!">
 
 	</form>
