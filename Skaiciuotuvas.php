@@ -37,7 +37,7 @@
 </head>
 <body>
 	<form action=>
-		<input type="text" name="arg1" placeholder="argument1" value="5">
+		<input type="text" name="arg1" placeholder="Argument1" value="5">
 		<select name="operation">
 		 	<option value="add">Add</option>
 		 	<option value="sub">Subract</option>
