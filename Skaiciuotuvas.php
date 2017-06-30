@@ -1,4 +1,9 @@
 <?php
+
+	if($_GET['operation'] == "div" && $_GET['arg2'] == 0) {
+		echo '<div class="alert alert-danger" role ="alert"><strong>Oh snap!</strong> Division by zero!</div>';
+	}
+
     $result = 0;
     // Tikriname ar buvo perduoti kintamieji iš formos (paspausta)
     if (isset($_GET['operation'])) {    // jei perduota $_GET['operation'] reiksme ..
